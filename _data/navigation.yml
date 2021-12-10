@@ -21,7 +21,7 @@ ruby:
   - title: "快速上手"
     children:
       - title: "简介"
-        url: /toturials/ruby/introduction/
+        url: /tutorials/ruby/introduction/
       - title: "安装"
         url: /ruby/install/
       - title: "用 Ruby 说“你好！”"
