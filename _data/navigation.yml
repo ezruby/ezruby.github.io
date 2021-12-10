@@ -5,7 +5,7 @@ main:
   - title: "文章"
     url: /articles/
   - title: "教程"
-    url: /tutorial/
+    url: /tutorials/
   - title: "资源"
     url: /resources/
   - title: "关于"
@@ -16,3 +16,15 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  
+ruby:
+  - title: "快速上手"
+    children:
+      - title: "简介"
+        url: /toturials/ruby/introduction/
+      - title: "安装"
+        url: /ruby/install/
+      - title: "用 Ruby 说“你好！”"
+        url: /ruby/helloworld/
+      - title: "善用 irb"
+        url: /ruby/irb/

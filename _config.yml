@@ -18,8 +18,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "zh-CN"
 title                    : "Easy Ruby!"
 title_separator          : "-"
-subtitle                 : "Ruby 新手的编程之旅"
-name                     : "Ruby 编程"
+subtitle                 : "Ruby 工具语言的学习之旅"
+name                     : "Rubyist"
 description              : "Ruby 是对使用者最友好的语言。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -274,6 +274,11 @@ compress_html:
   ignore:
     envs: development
 
+# collections
+collections:
+  ruby:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -295,6 +300,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _ruby
+  - scope:
+      path: ""
+      type: ruby
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "ruby"
+
 # jekyll compose
 jekyll_compose:
   default_front_matter:
