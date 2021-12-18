@@ -317,9 +317,11 @@ defaults:
 jekyll_compose:
   default_front_matter:
     posts:
+      layout: single
       title:
       categories:
       tags:
     pages:
+      layout: single
       title:
       permalink:
